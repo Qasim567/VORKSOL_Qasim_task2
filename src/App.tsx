@@ -14,14 +14,15 @@ export default function App() {
         name='Home'
         component={Home}
         options={{
-          title: "Trending Products"
+          title: "Your Contacts"
         }}
         />
         <Stack.Screen
         name='Details'
         component={Details}
         options={{
-          title: "Products Details"
+          // title: "Contact Details",
+          headerShown: false
         }}
         />
       </Stack.Navigator>
